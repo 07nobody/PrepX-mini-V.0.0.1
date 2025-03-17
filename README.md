@@ -155,3 +155,130 @@ For inquiries, reach out via **neelpatelcoc2gmail.com** or open an issue in the 
 
 🚀 **PrepX-mini (Free & Beginner-Friendly Version) is now available for exam preparation!**
 
+#  PrepX-V-0.1.1 AI-Based Question Generation & Validation System for NTA Examinations
+
+## 📌 Table of Contents
+1. **Introduction**  
+2. **PrepX System Overview**  
+3. **Supported Examinations**  
+   - JEE Main  
+   - NEET-UG  
+   - CUET  
+   - CMAT  
+   - GPAT  
+   - UGC NET  
+4. **Multi-Layered Question Validation System**  
+   - AI-Based Validation  
+   - Teacher Review  
+   - Admin Oversight  
+   - Student Reporting System  
+5. **Workflow Diagram**  
+6. **Implementation & Backend Logic**  
+7. **Legal Considerations**  
+   - Compliance with Indian Regulations  
+   - Intellectual Property Rights  
+   - Data Privacy  
+8. **Future Enhancements**  
+9. **Disclaimer & User Responsibilities**  
+
+---
+
+## 🎯 Introduction
+**PrepX** is an advanced **AI-powered exam preparation platform** designed to **automate question generation and validation** for NTA exams. It ensures high accuracy, fairness, and compliance with educational standards while leveraging multi-layered verification and student feedback.
+
+---
+
+## 🚀 PrepX System Overview
+- **AI-driven** mock test platform for real-exam simulations.
+- **Customizable test modes** for students.
+- **Intelligent Question Bank** with multi-tier validation.
+- **Scalable, secure, and high-performance system**.
+
+---
+
+## 📖 Supported Examinations
+| Exam Name  | Purpose  | Mode  | Duration  | Question Format  | Marking Scheme  |
+|------------|---------|------|----------|-----------------|-----------------|
+| **JEE Main** | B.E./B.Tech Admission | CBT | 3 hours | MCQs & Numerical | +4/-1 |
+| **NEET-UG** | MBBS/BDS Admission | Pen & Paper | 3h 20m | MCQs | +4/-1 |
+| **CUET** | UG/PG Admission | CBT | Varies | MCQs | Varies |
+| **CMAT** | MBA Admission | CBT | 3 hours | MCQs | +4/-1 |
+| **GPAT** | M.Pharm Admission | CBT | 3 hours | MCQs | +4/-1 |
+| **UGC NET** | Assistant Professor/JRF | CBT | 3 hours | MCQs | +2/-0 |
+
+---
+
+## 🔍 Multi-Layered Question Validation System
+### **Layer 1: AI-Based Validation**
+- AI scans for **accuracy, grammar, plagiarism, and formatting**.
+- Suggests corrections before sending to teachers.
+
+### **Layer 2: Teacher Review**
+- Teachers approve, edit, or reject AI-validated questions.
+- Modified or approved questions move to the question bank.
+
+### **Layer 3: Admin Oversight**
+- Final validation by **admins and AI recheck**.
+- Ensures **accuracy, fairness, and variety** before live deployment.
+
+### **Student Reporting System**
+- Students can report **incorrect questions**.
+- Reported questions are **reviewed, corrected, or removed**.
+
+---
+
+## 🛠 Workflow Diagram
+```mermaid
+graph TD;
+  A[Submit Question] -->|AI Checks| B(AI Validation);
+  B -->|Correct| C[Teacher Review];
+  B -->|Incorrect| D[AI Suggests Edits];
+  C -->|Approved| E[Question Bank];
+  C -->|Edited| F[Teacher Modifies & Approves];
+  C -->|Rejected| G[Returned to AI];
+  E -->|Admin Review| H[Final AI & Admin Check];
+  H -->|Approved| I[Live Exam];
+  H -->|Rejected| J[Sent for Revision];
+  I -->|Student Reports Error| K[Reviewed & Corrected];
+```
+
+---
+
+## 💻 Implementation & Backend Logic
+| Step  | Description  |
+|--------|------------|
+| **1. Submission** | Questions stored in `questions_pending_review` |
+| **2. AI Validation** | Runs checks & updates `validation_status` |
+| **3. Teacher Review** | Updates `teacher_approval_status` |
+| **4. Admin Check** | Marks question as `approved` or `rejected` |
+| **5. Live Deployment** | Moves approved questions to `questions_live` |
+| **6. Student Reports** | Flagged questions are reviewed & updated |
+
+---
+
+## ⚖️ Legal Considerations
+- **Compliance:** Adheres to the upcoming **Digital India Act** and follows **NITI Aayog's Responsible AI Principles**.
+- **Intellectual Property:** No copyrighted content is used. All questions are AI-generated or teacher-verified.
+- **Data Privacy:** Complies with **Digital Personal Data Protection Act 2023** to secure user data.
+
+---
+
+## 🚀 Future Enhancements
+- **Use GPT-4 for advanced AI validation**.
+- **Integrate Machine Learning for improved accuracy**.
+- **Gamify Teacher/Admin Reviews with leaderboards**.
+- **Enable Peer Reviews where multiple teachers validate a question**.
+
+---
+
+## ⚠️ Disclaimer & User Responsibilities
+- AI-generated questions are for **practice purposes only**.
+- The system **does not guarantee 100% accuracy**.
+- Users should **cross-check** information and **follow institutional guidelines**.
+
+---
+
+👑 **PrepX is the ULTIMATE AI-Powered Exam Prep System.** With advanced automation, validation, and compliance, it delivers a flawless experience for students, educators, and institutions! 🚀🔥
+
+
+
