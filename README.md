@@ -62,37 +62,6 @@ PrepX is a **lightweight and AI-powered** competitive exam platform designed for
 
 ---
 
-## 🔹 Single Developer Role & Skills Required
-
-### Role: Full-Stack MERN Developer with AI Integration Experience
-
-#### Core Skills Required:
-- **React.js**: 2+ years experience with hooks, context API, and state management
-- **Node.js/Express.js**: Building RESTful APIs and implementing middleware
-- **MongoDB/PostgreSQL**: Database schema design and query optimization
-- **Tailwind CSS**: Component styling and responsive design
-- **Authentication**: Implementation of JWT and OAuth flows with Clerk.dev
-- **AI Integration**: Experience with Hugging Face API or similar NLP services
-- **DevOps**: Deployment to Netlify, Render, and setting up CI/CD pipelines
-
-#### Additional Skills:
-- **Testing**: Unit and integration testing with Jest and React Testing Library
-- **State Management**: Redux or Context API implementation
-- **API Design**: Creating and documenting RESTful API endpoints
-- **Security**: Implementing best practices for web application security
-- **Performance Optimization**: Frontend and backend performance tuning
-
-#### Development Responsibilities:
-- Set up project architecture and repository structure
-- Design and implement database schema in Supabase
-- Develop frontend UI components with React and Tailwind CSS
-- Create backend APIs with Express.js
-- Integrate Hugging Face API for question generation and validation
-- Implement authentication with Clerk.dev
-- Deploy and maintain application on Netlify and Render
-- Set up monitoring and error logging
-- Create documentation for future development
-
 ---
 
 ## 🔹 Multi-Layered Question Validation System
