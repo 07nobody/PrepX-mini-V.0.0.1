@@ -251,3 +251,121 @@ For inquiries, reach out via **neelpatelcoc2gmail.com** or open an issue in the 
 ---
 
 🚀 **PrepX - Free AI-Powered Exam Platform is now available for exam preparation!**
+
+---
+
+## 🔹 Project Architecture and Repository Structure
+
+### Directory Structure
+```
+prepx/
+├── backend/
+│   ├── server.js
+│   ├── config/
+│   │   └── database.js
+│   ├── controllers/
+│   │   └── userController.js
+│   ├── models/
+│   │   └── userModel.js
+│   ├── routes/
+│   │   └── userRoutes.js
+│   └── middleware/
+│       └── authMiddleware.js
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Header.js
+│   │   │   ├── Footer.js
+│   │   │   ├── Login.js
+│   │   │   ├── Register.js
+│   │   │   ├── Dashboard.js
+│   │   │   ├── Test.js
+│   │   │   ├── Leaderboard.js
+│   │   │   ├── QuestionValidation.js
+│   │   │   ├── TeacherReview.js
+│   │   │   ├── AdminOversight.js
+│   │   │   ├── StudentReport.js
+│   │   │   ├── PerformanceTracking.js
+│   │   │   ├── MockTestManagement.js
+│   │   │   ├── ExamManagement.js
+│   │   │   ├── QuestionBank.js
+│   │   │   ├── QuestionSubmission.js
+│   │   │   ├── QuestionReview.js
+│   │   │   ├── QuestionApproval.js
+│   │   │   ├── QuestionRejection.js
+│   │   │   ├── QuestionCorrection.js
+│   │   │   ├── QuestionDeployment.js
+│   │   │   ├── QuestionReporting.js
+│   │   │   ├── QuestionReviewCorrection.js
+│   │   │   ├── QuestionLiveDeployment.js
+│   │   │   ├── QuestionFlagging.js
+│   │   │   ├── QuestionReviewUpdate.js
+│   │   │   ├── QuestionReviewApproval.js
+│   │   │   ├── QuestionReviewRejection.js
+│   │   │   ├── QuestionReviewCorrectionUpdate.js
+│   │   │   ├── QuestionReviewLiveDeployment.js
+│   │   │   ├── QuestionReviewFlagging.js
+│   │   │   ├── QuestionReviewUpdateApproval.js
+│   │   │   ├── QuestionReviewUpdateRejection.js
+│   │   │   ├── QuestionReviewUpdateCorrection.js
+│   │   │   ├── QuestionReviewUpdateLiveDeployment.js
+│   │   │   ├── QuestionReviewUpdateFlagging.js
+│   │   │   ├── QuestionReviewUpdateApprovalCorrection.js
+│   │   │   ├── QuestionReviewUpdateApprovalLiveDeployment.js
+│   │   │   ├── QuestionReviewUpdateApprovalFlagging.js
+│   │   │   ├── QuestionReviewUpdateRejectionCorrection.js
+│   │   │   ├── QuestionReviewUpdateRejectionLiveDeployment.js
+│   │   │   ├── QuestionReviewUpdateRejectionFlagging.js
+│   │   │   ├── QuestionReviewUpdateCorrectionApproval.js
+│   │   │   ├── QuestionReviewUpdateCorrectionLiveDeployment.js
+│   │   │   ├── QuestionReviewUpdateCorrectionFlagging.js
+│   │   │   ├── QuestionReviewUpdateLiveDeploymentApproval.js
+│   │   │   ├── QuestionReviewUpdateLiveDeploymentRejection.js
+│   │   │   ├── QuestionReviewUpdateLiveDeploymentCorrection.js
+│   │   │   ├── QuestionReviewUpdateLiveDeploymentFlagging.js
+│   │   │   ├── QuestionReviewUpdateFlaggingApproval.js
+│   │   │   ├── QuestionReviewUpdateFlaggingRejection.js
+│   │   │   ├── QuestionReviewUpdateFlaggingCorrection.js
+│   │   │   ├── QuestionReviewUpdateFlaggingLiveDeployment.js
+│   │   │   ├── QuestionReviewUpdateApprovalCorrectionLiveDeployment.js
+│   │   │   ├── QuestionReviewUpdateApprovalCorrectionFlagging.js
+│   │   │   ├── QuestionReviewUpdateApprovalLiveDeploymentFlagging.js
+│   │   │   ├── QuestionReviewUpdateRejectionCorrectionApproval.js
+│   │   │   ├── QuestionReviewUpdateRejectionCorrectionLiveDeployment.js
+│   │   │   ├── QuestionReviewUpdateRejectionCorrectionFlagging.js
+│   │   │   ├── QuestionReviewUpdateRejectionLiveDeploymentApproval.js
+│   │   │   ├── QuestionReviewUpdateRejectionLiveDeploymentCorrection.js
+│   │   │   ├── QuestionReviewUpdateRejectionLiveDeploymentFlagging.js
+│   │   │   ├── QuestionReviewUpdateCorrectionApprovalLiveDeployment.js
+│   │   │   ├── QuestionReviewUpdateCorrectionApprovalFlagging.js
+│   │   │   ├── QuestionReviewUpdateCorrectionLiveDeploymentFlagging.js
+│   │   │   ├── QuestionReviewUpdateApprovalCorrectionLiveDeploymentFlagging.js
+│   │   │   ├── QuestionReviewUpdateRejectionCorrectionApprovalLiveDeployment.js
+│   │   │   ├── QuestionReviewUpdateRejectionCorrectionApprovalFlagging.js
+│   │   │   ├── QuestionReviewUpdateRejectionCorrectionLiveDeploymentFlagging.js
+│   │   │   ├── QuestionReviewUpdateRejectionLiveDeploymentApprovalCorrection.js
+│   │   │   ├── App.js
+│   │   ├── assets/
+│   │   ├── pages/
+│   │   ├── styles/
+│   │   ├── utils/
+│   │   └── index.js
+├── shared/
+│   ├── constants/
+│   ├── utils/
+│   └── hooks/
+├── .env
+├── .gitignore
+├── package.json
+└── README.md
+```
+
+### Configuration Files
+- **backend/config/database.js**: Database connection configuration.
+- **backend/middleware/authMiddleware.js**: Authentication middleware.
+- **frontend/src/styles/tailwind.config.js**: Tailwind CSS configuration.
+- **frontend/src/utils/api.js**: API utility functions.
+
+---
+
